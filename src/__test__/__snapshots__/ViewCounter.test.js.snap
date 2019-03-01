@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test counter view shallow test 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <inject-Counter-with-store
+    store={
+      Object {
+        "counterStore": CounterStore {
+          "addService": [Function],
+          "cancel": [Function],
+          "cancelAll": [Function],
+          "count": 0,
+          "debug": [Function],
+          "error": [Function],
+          "getService": [Function],
+          "removeService": [Function],
+          "services": Array [],
+          Symbol(mobx did run lazy initializers): true,
+          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+            "defaultEnhancer": [Function],
+            "keysAtom": Atom$$1 {
+              "diffValue": 0,
+              "isBeingObserved": false,
+              "isPendingUnobservation": false,
+              "lastAccessedBy": 0,
+              "lowestObserverState": 2,
+              "name": "CounterStore@2.keys",
+              "observers": Array [],
+            },
+            "name": "CounterStore@2",
+            "target": [Circular],
+            "values": Array [
+              Array [
+                "count",
+                0,
+              ],
+            ],
+          },
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "store": Object {
+        "counterStore": CounterStore {
+          "addService": [Function],
+          "cancel": [Function],
+          "cancelAll": [Function],
+          "count": 0,
+          "debug": [Function],
+          "error": [Function],
+          "getService": [Function],
+          "removeService": [Function],
+          "services": Array [],
+          Symbol(mobx did run lazy initializers): true,
+          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+            "defaultEnhancer": [Function],
+            "keysAtom": Atom$$1 {
+              "diffValue": 0,
+              "isBeingObserved": false,
+              "isPendingUnobservation": false,
+              "lastAccessedBy": 0,
+              "lowestObserverState": 2,
+              "name": "CounterStore@2.keys",
+              "observers": Array [],
+            },
+            "name": "CounterStore@2",
+            "target": [Circular],
+            "values": Array [
+              Array [
+                "count",
+                0,
+              ],
+            ],
+          },
+        },
+      },
+    },
+    "ref": [Function],
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "store": Object {
+          "counterStore": CounterStore {
+            "addService": [Function],
+            "cancel": [Function],
+            "cancelAll": [Function],
+            "count": 0,
+            "debug": [Function],
+            "error": [Function],
+            "getService": [Function],
+            "removeService": [Function],
+            "services": Array [],
+            Symbol(mobx did run lazy initializers): true,
+            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+              "defaultEnhancer": [Function],
+              "keysAtom": Atom$$1 {
+                "diffValue": 0,
+                "isBeingObserved": false,
+                "isPendingUnobservation": false,
+                "lastAccessedBy": 0,
+                "lowestObserverState": 2,
+                "name": "CounterStore@2.keys",
+                "observers": Array [],
+              },
+              "name": "CounterStore@2",
+              "target": [Circular],
+              "values": Array [
+                Array [
+                  "count",
+                  0,
+                ],
+              ],
+            },
+          },
+        },
+      },
+      "ref": [Function],
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
