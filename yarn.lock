@@ -7180,9 +7180,9 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-alix@^0.1.11:
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/react-alix/-/react-alix-0.1.11.tgz#3706cfa7b256c7aed8a174ee23d30ef7d7a97b49"
+react-alix@^0.1.16:
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/react-alix/-/react-alix-0.1.16.tgz#ef1723d17400ceab068e805d0ee2e15591625f33"
   dependencies:
     axios "^0.17.0 || ^0.18.0"
     mobx "^5.9.0"

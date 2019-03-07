@@ -8,6 +8,15 @@ class CounterStore extends BaseStore {
   decreaseAction() {
     this.count--;
   }
+  //monitor state changes for debug
+  monitorState() {
+    this.subscribe(() => {
+      this.debug("Counter Store state trigger change:", this.getState());
+    });
+  }
+  unMonitorState() {
+    this.unsubscribe();
+  }
 }
 
 export default CounterStore;

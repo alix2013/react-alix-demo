@@ -4,6 +4,14 @@ import { BaseComponent } from "react-alix";
 export default class Counter extends BaseComponent {
   store = this.props.store.counterStore;
 
+  componentDidMount() {
+    super.componentDidMount();
+    this.dispatch(this.store, "monitorState");
+  }
+
+  componentWillUnmount() {
+    this.dispatch(this.store, "unMonitorState");
+  }
   render() {
     this.debug("Store in render:", this.store, this.store.count);
     console.debug();
